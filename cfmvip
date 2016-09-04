@@ -19,8 +19,8 @@ function buildCurl($url, $headers)
 }
 // Die if we did not get the right number of args
 if (count($argv) < 6) {
-    echo 'Usage: cf-mvip "<origin-ip-address>" "<destination-ip-address>" "<target-zone-io>" "<user-email>" "<api-key>"' . "\n";
-    die('Usage: cf-mvip "127.0.0.1" "10.0.0.2" "ruyc23ec9zhmexkbvaw9tch7vnbvcmfn" "admin@domian.tld" "prm6rf7ajg459wupzrvj4yrqe2tpvgd8j5pew"' . "\n");
+    echo 'Usage: cfmvip "<origin-ip-address>" "<destination-ip-address>" "<target-zone-io>" "<user-email>" "<api-key>"' . "\n";
+    die('Usage: cfmvip "127.0.0.1" "10.0.0.2" "ruyc23ec9zhmexkbvaw9tch7vnbvcmfn" "admin@domian.tld" "prm6rf7ajg459wupzrvj4yrqe2tpvgd8j5pew"' . "\n");
 }
 /**
  * Initial variables
