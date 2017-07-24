@@ -19,3 +19,12 @@ Finds all DNS records with the specified origin IP address then creates a new re
 # cfcp "<origin-ip-address>" "<destination-ip-address>" "<target-zone-io>" "<user-email>" "<api-key>"
 cfcp "127.0.0.1" "10.0.0.2" "ruyc23ec9zhmexkbvaw9tch7vnbvcmfn" "admin@domian.tld" "prm6rf7ajg459wupzrvj4yrqe2tpvgd8j5pew"
 ```
+
+## cfrmip
+
+Finds all DNS records with the specified target IP address then deletes that record.
+
+```bash
+# cfcp "<target-ip-address>" "<target-zone-io>" "<user-email>" "<api-key>"
+cfcp "10.0.0.2" "ruyc23ec9zhmexkbvaw9tch7vnbvcmfn" "admin@domian.tld" "prm6rf7ajg459wupzrvj4yrqe2tpvgd8j5pew"
+```
